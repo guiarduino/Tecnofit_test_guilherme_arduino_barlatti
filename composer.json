@@ -1,0 +1,32 @@
+{
+    "name": "guibarlatti/testetecnofit",
+    "description": "Teste para vaga na Tecnofit",
+    "authors": [
+        {
+            "name": "Guilherme Arduino Barlatti",
+            "email": "guibarlatti@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "files":[
+            "app/helpers/constants.php",
+            "app/router/router.php",
+            "app/controllers/controller.php",
+            "app/database/connection.php",
+            "app/database/query.php"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "npm-asset/jquery": "^3.5",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

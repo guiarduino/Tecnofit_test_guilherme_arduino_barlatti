@@ -1,0 +1,42 @@
+.navbar-style {
+    background-color: black;
+}
+
+.navbar-style .text-title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.table-none-register{
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-value{
+    text-align: center;
+}
+
+.table-position{
+    text-align: center;
+}
+
+.table-header-value{
+    text-align: center;
+}
+
+.table-header-position{
+    text-align: center;
+}
+
+.color-1 {
+    background-color: #fae259;
+}
+
+.color-2 {
+    background-color: #dedede;
+}
+
+.color-3 {
+    background-color: #f5b16c;
+}
