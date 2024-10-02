@@ -6,7 +6,7 @@
 
             $query = $connect->query($sql);
             return $query->fetchAll();
-        }catch (PDOExcepition $e) {
-            var_dump($e->getMessage());
+        }catch (Exception $e) {
+            return false;
         }
     }

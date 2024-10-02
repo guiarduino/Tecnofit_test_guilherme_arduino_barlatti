@@ -1,14 +1,14 @@
 <?php
 
-namespace app\controllers;
-use app\models\PersonalRecord;
+namespace app\Controllers;
+use app\models\PersonalRecord AS ModelPersonalRecord;
 
 class Home
 {
 
     public function index($params)
     {
-        $personalRecord = new PersonalRecord();
+        $personalRecord = new ModelPersonalRecord();
         $ranking_sort = $personalRecord->get_ranking();
 
         return [

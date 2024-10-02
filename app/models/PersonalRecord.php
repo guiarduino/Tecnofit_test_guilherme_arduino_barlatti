@@ -43,9 +43,15 @@ class PersonalRecord
         ");
 
         $ranking_sort = [];
+
+        if(!$ranking){
+            return false;
+        }
+
         // Percorre o array original e mapeia os objetos pelo moviment_id
         foreach ($ranking as $item) {
-            $ranking_sort[$item->moviment_name][] = $item;
+            $dados = $item->user_name ? $item : [];
+            $ranking_sort[$item->moviment_name][] = $dados;
         }
 
         return $ranking_sort;

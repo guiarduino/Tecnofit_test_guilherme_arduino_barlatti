@@ -1,5 +1,8 @@
 <?php
 
     return [
-        '/' => 'Home@index',
+        'GET' => [
+            '/' => 'Home@index',
+            '/ranking' => 'PersonalRecord@getRanking',
+        ]
     ];

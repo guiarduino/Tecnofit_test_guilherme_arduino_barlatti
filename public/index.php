@@ -2,8 +2,17 @@
 
 require 'bootstrap.php';
 
+use Symfony\Component\HttpFoundation\Response;
+
 try{
     $data = router();
+
+    if ($data instanceof Response) {
+        header('Content-Type: application/json');
+        http_response_code($data->getStatusCode());
+        print_r($data->getContent());
+        die();
+    }
 
     extract($data['data']);
 

@@ -54,8 +54,9 @@
         $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         
         $routes = routes();
+        $requestMethod = $_SERVER['REQUEST_METHOD'];
 
-        $matchedUri = exactMatchUriArrayRoutes($uri, $routes);
+        $matchedUri = exactMatchUriArrayRoutes($uri, $routes[$requestMethod]);
 
         $params = [];
         if(empty($matchedUri)){

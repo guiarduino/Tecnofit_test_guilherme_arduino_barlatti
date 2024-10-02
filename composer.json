@@ -16,7 +16,8 @@
             "app/router/router.php",
             "app/controllers/controller.php",
             "app/database/connection.php",
-            "app/database/query.php"
+            "app/database/query.php",
+            "app/helpers/helpers.php"
         ]
     },
     "repositories": [
@@ -27,6 +28,7 @@
     ],
     "require": {
         "npm-asset/jquery": "^3.5",
-        "vlucas/phpdotenv": "^5.0"
+        "vlucas/phpdotenv": "^5.0",
+        "symfony/http-foundation": "^7.1"
     }
 }
