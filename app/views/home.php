@@ -20,7 +20,7 @@
                                         <td class="table-position"><?php print_r($val->position) ?></td>
                                         <td><?php print_r($val->user_name) ?></td>
                                         <td class="table-value"><?php print_r($val->pr_value) ?></td>
-                                        <td><?php print_r($val->date_reg) ?></td>
+                                        <td><?php strtotime($val->date_reg) >= 0 ? print_r(date('d/m/Y', strtotime($val->date_reg))) : print_r('Data não registada') ?></td>
                                     <?php else: ?>
                                     <tr>
                                         <td colspan="4" class="table-none-register">NENHUM REGISTRO</td>
