@@ -41,5 +41,6 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina:
    Para executar localmente: basta entrar no diretorio raiz do projeto e executar o comando:
    ```bash
    php -S localhost:5000 -t public
-
+   ```
+   
    Com isso o projeto poderá ser executado localmente, basta entrar no navegador e acessar a url: "http://localhost:5000/"
