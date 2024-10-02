@@ -44,3 +44,5 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina:
    ```
    
    Com isso o projeto poderá ser executado localmente, basta entrar no navegador e acessar a url: "http://localhost:5000/"
+
+   Para acessar o endpoint que te retornará apenas o ranking sem a parte de view acesse "http://localhost:5000/ranking"
