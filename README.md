@@ -25,10 +25,10 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina:
 
    - Copie o arquivo .env na raiz do projeto e renomei para ".env"
    - Configure as seguintes variaveis no arquivo que você criou ".env":
-        DATABASE_HOST='{ip_da_maquina_do_banco_de_dados}'
-        DATABASE_USER='{nome_do_usuario_do_banco_de_dados}'
-        DATABASE_PASSWORD='{senha_do_usuario}'
-        DATABASE_NAME='{nome_da_base_de_dados}'
+      - DATABASE_HOST='{ip_da_maquina_do_banco_de_dados}'
+      - DATABASE_USER='{nome_do_usuario_do_banco_de_dados}'
+      - DATABASE_PASSWORD='{senha_do_usuario}'
+      - DATABASE_NAME='{nome_da_base_de_dados}'
 
 4. **Rodar Migrations**
 
