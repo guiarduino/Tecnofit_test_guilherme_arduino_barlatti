@@ -14,7 +14,7 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina:
 1. **Clone o repositório:**
 
    ```bash
-   git clone guiarduino/Tecnofit_test_guilherme_arduino_barlatti
+   git clone https://github.com/guiarduino/Tecnofit_test_guilherme_arduino_barlatti.git
 
 2. **Instale as dependências**
 
